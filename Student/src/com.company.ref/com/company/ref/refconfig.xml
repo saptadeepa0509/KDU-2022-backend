@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean class="com.company.ref.B" name="bref">
+       <property name="y" value="20"/>
+   </bean>
+    <bean class="com.company.ref.A" name="aref">
+        <property name="x" value="30"/>
+        <property name="ob" >
+            <ref bean="bref"/>
+        </property>
+    </bean>
+</beans>
