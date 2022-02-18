@@ -1,0 +1,31 @@
+[
+  {
+    "type": "BUY",
+    "data": {
+      "coin": "BTC",
+      "quantity": 18938711,
+      "wallet_address": "0x6048710a582fc9ebc9f46afd0fcda2f8"
+    }
+  },{
+  "type": "SELL",
+  "data": {
+    "coin": "BTC",
+    "quantity": 2000,
+    "wallet_address": "0x5a1fcde6a86ea0dd483f33d81f35000f"
+  }
+},
+  {
+    "type": "UPDATE_PRICE",
+    "data": {
+      "coin": "BTC",
+      "price": 24.34
+    }
+  },
+  {
+    "type": "ADD_VOLUME",
+    "data": {
+      "coin": "BTC",
+      "volume": 20000
+    }
+  }
+]
